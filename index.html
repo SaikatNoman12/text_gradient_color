@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text gradient color</title>
+
+
+    <style>
+        .text-gradient {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+            font-family: monospace;
+        }
+
+        .text-gradient h1 {
+            font-size: 105px;
+            font-weight: 800;
+            background: linear-gradient(93deg, #1f08f3ed, #64dd64, yellow);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="text-gradient">
+        <h1>Hello My Friend</h1>
+    </div>
+
+</body>
+
+</html>
